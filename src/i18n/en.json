@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "services": "Services",
+    "projects": "Projects",
+    "tech": "Tech",
+    "experience": "Experience",
+    "achievements": "Achievements",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Alexey Lensu",
+    "alias": "Fyukon",
+    "role": "Python developer. I build Telegram bots, backend services, and automate business workflows.",
+    "cta_work": "Let's talk",
+    "cta_cv": "Download CV"
+  },
+  "services": {
+    "title": "What I do",
+    "subtitle": "Solving business problems with code. Fast, reliable, detail-oriented.",
+    "items": [
+      {
+        "title": "Telegram Bots",
+        "desc": "Bots for lead capture, CRM integration, and API connectivity. aiogram 3, FSM, middleware, logging."
+      },
+      {
+        "title": "Backend Development",
+        "desc": "FastAPI APIs, PostgreSQL with SQLAlchemy, async processing, containerization, VDS deployment."
+      },
+      {
+        "title": "Web Applications",
+        "desc": "Full-stack projects with React + FastAPI. From landing pages to Telegram Mini Apps with backend logic."
+      },
+      {
+        "title": "Automation",
+        "desc": "Parsing, OCR, API integrations, data sync between services. Anything that saves your time."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "From production systems to turnkey Telegram bots.",
+    "items": [
+      {
+        "title": "AI CFO Bot",
+        "role": "Developer",
+        "desc": "Telegram bot — AI CFO for small business. Track income and expenses via natural text, AI-powered parsing, daily/weekly/monthly reports, debt tracking, Excel export.",
+        "tags": ["aiogram 3", "FastAPI", "PostgreSQL", "SQLAlchemy 2.0", "Docker", "OpenRouter"]
+      },
+      {
+        "title": "RuKond",
+        "role": "Full-stack Developer",
+        "desc": "Website for an AC installation company. React + FastAPI, product catalog, three request types, validation, Docker Compose + Cloudpub.",
+        "tags": ["React", "FastAPI", "Tailwind CSS", "Docker", "Cloudpub", "rukond.ru"]
+      },
+      {
+        "title": "SE Toolkit Hackathon",
+        "role": "Full-stack Developer",
+        "desc": "SingularityApp task sync with Telegram bot. FastAPI + PostgreSQL, parse→confirm→apply flow via LLM, Docker Compose, VDS deployment.",
+        "tags": ["FastAPI", "PostgreSQL", "Telegram Bot API", "Docker", "OpenRouter"]
+      },
+      {
+        "title": "Lead Bot",
+        "role": "Developer",
+        "desc": "Async Telegram bot for lead capture and management. FSM, DAO, anti-flood middleware, admin flow, PostgreSQL, Docker Compose.",
+        "tags": ["aiogram 3", "PostgreSQL", "Docker", "FSM", "SQLAlchemy"]
+      },
+      {
+        "title": "TableCRM",
+        "role": "Backend Developer",
+        "desc": "Production project work on tablecrm.com: MAX registration, DB changes, GitLab CI/CD, architecture navigation and feature development without rewrites.",
+        "tags": ["PostgreSQL", "MAX", "GitLab CI/CD", "Backend"]
+      }
+    ]
+  },
+  "tech": {
+    "title": "Tech Stack",
+    "subtitle": "Tools I work with daily.",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "data": "Data",
+      "infra": "Infrastructure"
+    },
+    "items": [
+      "Python", "FastAPI", "aiogram 3", "SQLAlchemy 2.0", "asyncio",
+      "React", "Vite", "Tailwind CSS",
+      "PostgreSQL", "SQLite",
+      "Docker", "Docker Compose", "Linux", "VDS", "Caddy", "Git", "GitLab CI/CD"
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "300+ lessons, production projects, team collaboration.",
+    "items": [
+      {
+        "period": "08.2025 — present",
+        "title": "Programming Teacher",
+        "subtitle": "Private practice",
+        "desc": "300+ lessons in Python, C++, ML. 12 students aged 13-16. ~20 h/week."
+      },
+      {
+        "period": "07.2025 — 03.2026",
+        "title": "Teacher",
+        "subtitle": "Online school",
+        "desc": "Individual and group lessons, code review, explaining complex topics."
+      },
+      {
+        "period": "2025",
+        "title": "Backend Developer (Internship)",
+        "subtitle": "TableCRM",
+        "desc": "Production project: MAX registration, DB, CI/CD, architecture work."
+      },
+      {
+        "period": "11.2024 — 06.2025",
+        "title": "Consultant",
+        "subtitle": "Insight Rehab Center, Kazan",
+        "desc": "Group sessions, working with people in high-stress environments."
+      }
+    ]
+  },
+  "achievements": {
+    "title": "Achievements",
+    "items": [
+      "Yandex Lyceum — 1st year with honors",
+      "Vysshaya Proba Olympiad winner (team)",
+      "Regional stage winner, All-Russian Olympiad",
+      "3rd place, Innopolis Open finals (AI track)",
+      "WorldSkills Russia Junior finalist, Big Data & ML"
+    ]
+  },
+  "contact": {
+    "title": "Let's work together",
+    "subtitle": "Message me on Telegram — I reply fast. Let's discuss your project, timeline, and budget.",
+    "cta": "Message on Telegram",
+    "or": "or",
+    "email": "Send email"
+  },
+  "footer": {
+    "copyright": "Alexey Lensu — Fyukon",
+    "built": "Built with care",
+    "lang": "RU"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  }
+}
