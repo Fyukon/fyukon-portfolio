@@ -65,8 +65,17 @@ body {
   @apply bg-white dark:bg-gray-900/80 backdrop-blur-lg border border-gray-300 dark:border-gray-700/50 shadow-lg;
 }
 
+/* Alternating section backgrounds for light theme */
+main > section:nth-child(even) {
+  @apply bg-white/60 dark:bg-transparent;
+}
+
+section[id] {
+  @apply scroll-mt-16 md:scroll-mt-20;
+}
+
 section:not(:last-of-type) {
-  @apply border-b border-gray-400/60 dark:border-gray-800/50;
+  @apply border-b border-gray-300/70 dark:border-gray-800/50;
 }
 
 .section-container {

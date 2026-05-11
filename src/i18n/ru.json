@@ -45,31 +45,36 @@
         "title": "AI CFO Bot",
         "role": "Разработчик",
         "desc": "Telegram-бот — AI-финансовый директор для малого бизнеса. Ввод доходов и расходов обычным текстом, AI-парсинг операций, отчёты за день/неделю/месяц, учёт долгов, экспорт в Excel.",
-        "tags": ["aiogram 3", "FastAPI", "PostgreSQL", "SQLAlchemy 2.0", "Docker", "OpenRouter"]
+        "tags": ["aiogram 3", "FastAPI", "PostgreSQL", "SQLAlchemy 2.0", "Docker", "OpenRouter"],
+        "link": ""
       },
       {
         "title": "RuKond",
         "role": "Full-stack разработчик",
         "desc": "Сайт для компании по установке кондиционеров. React + FastAPI, каталог, три типа заявок, валидация, Docker Compose + Cloudpub.",
-        "tags": ["React", "FastAPI", "Tailwind CSS", "Docker", "Cloudpub", "rukond.ru"]
+        "tags": ["React", "FastAPI", "Tailwind CSS", "Docker", "Cloudpub", "rukond.ru"],
+        "link": "https://rukond.ru"
       },
       {
         "title": "SE Toolkit Hackathon",
         "role": "Full-stack разработчик",
         "desc": "Синхронизация задач SingularityApp с Telegram-ботом. FastAPI + PostgreSQL, flow parse→confirm→apply через LLM, Docker Compose, деплой на VDS.",
-        "tags": ["FastAPI", "PostgreSQL", "Telegram Bot API", "Docker", "OpenRouter"]
+        "tags": ["FastAPI", "PostgreSQL", "Telegram Bot API", "Docker", "OpenRouter"],
+        "link": ""
       },
       {
         "title": "Lead Bot",
         "role": "Разработчик",
         "desc": "Асинхронный Telegram-бот для сбора заявок и управления лидами. FSM, DAO, anti-flood middleware, admin flow, PostgreSQL, Docker Compose.",
-        "tags": ["aiogram 3", "PostgreSQL", "Docker", "FSM", "SQLAlchemy"]
+        "tags": ["aiogram 3", "PostgreSQL", "Docker", "FSM", "SQLAlchemy"],
+        "link": ""
       },
       {
         "title": "TableCRM",
         "role": "Backend-разработчик",
         "desc": "Работа над production-проектом tablecrm.com: регистрация через MAX, изменения в БД, GitLab CI/CD, разбор архитектуры и доработка без переписывания.",
-        "tags": ["PostgreSQL", "MAX", "GitLab CI/CD", "Backend"]
+        "tags": ["PostgreSQL", "MAX", "GitLab CI/CD", "Backend"],
+        "link": "https://tablecrm.com"
       }
     ]
   },

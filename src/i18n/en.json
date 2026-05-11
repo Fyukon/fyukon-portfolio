@@ -45,31 +45,36 @@
         "title": "AI CFO Bot",
         "role": "Developer",
         "desc": "Telegram bot — AI CFO for small business. Track income and expenses via natural text, AI-powered parsing, daily/weekly/monthly reports, debt tracking, Excel export.",
-        "tags": ["aiogram 3", "FastAPI", "PostgreSQL", "SQLAlchemy 2.0", "Docker", "OpenRouter"]
+        "tags": ["aiogram 3", "FastAPI", "PostgreSQL", "SQLAlchemy 2.0", "Docker", "OpenRouter"],
+        "link": ""
       },
       {
         "title": "RuKond",
         "role": "Full-stack Developer",
         "desc": "Website for an AC installation company. React + FastAPI, product catalog, three request types, validation, Docker Compose + Cloudpub.",
-        "tags": ["React", "FastAPI", "Tailwind CSS", "Docker", "Cloudpub", "rukond.ru"]
+        "tags": ["React", "FastAPI", "Tailwind CSS", "Docker", "Cloudpub", "rukond.ru"],
+        "link": "https://rukond.ru"
       },
       {
         "title": "SE Toolkit Hackathon",
         "role": "Full-stack Developer",
         "desc": "SingularityApp task sync with Telegram bot. FastAPI + PostgreSQL, parse→confirm→apply flow via LLM, Docker Compose, VDS deployment.",
-        "tags": ["FastAPI", "PostgreSQL", "Telegram Bot API", "Docker", "OpenRouter"]
+        "tags": ["FastAPI", "PostgreSQL", "Telegram Bot API", "Docker", "OpenRouter"],
+        "link": ""
       },
       {
         "title": "Lead Bot",
         "role": "Developer",
         "desc": "Async Telegram bot for lead capture and management. FSM, DAO, anti-flood middleware, admin flow, PostgreSQL, Docker Compose.",
-        "tags": ["aiogram 3", "PostgreSQL", "Docker", "FSM", "SQLAlchemy"]
+        "tags": ["aiogram 3", "PostgreSQL", "Docker", "FSM", "SQLAlchemy"],
+        "link": ""
       },
       {
         "title": "TableCRM",
         "role": "Backend Developer",
         "desc": "Production project work on tablecrm.com: MAX registration, DB changes, GitLab CI/CD, architecture navigation and feature development without rewrites.",
-        "tags": ["PostgreSQL", "MAX", "GitLab CI/CD", "Backend"]
+        "tags": ["PostgreSQL", "MAX", "GitLab CI/CD", "Backend"],
+        "link": "https://tablecrm.com"
       }
     ]
   },

@@ -5,7 +5,10 @@ export default function Hero() {
   const { t } = useTranslation()
 
   return (
-    <section id="hero" className="min-h-screen flex items-center pt-16">
+    <section id="hero" className="min-h-screen flex items-center pt-16 md:pt-20 relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-sky-50 dark:from-gray-950 dark:via-gray-950 dark:to-gray-900">
+      {/* Background decoration */}
+      <div className="absolute -top-40 -right-40 w-80 h-80 rounded-full bg-blue-200/30 dark:bg-blue-900/10 blur-3xl pointer-events-none" />
+      <div className="absolute -bottom-20 -left-20 w-60 h-60 rounded-full bg-cyan-200/20 dark:bg-cyan-900/10 blur-3xl pointer-events-none" />
       <div className="section-container py-20">
         <div className="max-w-3xl hero-enter">
           <p className="text-lg text-gray-500 dark:text-gray-400 mb-3 font-mono">{t('hero.greeting')}</p>
