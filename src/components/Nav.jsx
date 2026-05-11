@@ -20,7 +20,7 @@ export default function Nav({ dark, setDark }) {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'glass shadow-sm' : 'bg-transparent'}`}>
-      <div className="section-container flex items-center justify-between h-16">
+      <div className="section-container flex items-center justify-between h-12">
         <a href="#" className="text-xl font-bold gradient-text">Fyukon</a>
 
         {/* Desktop nav */}
@@ -52,7 +52,7 @@ export default function Nav({ dark, setDark }) {
 
       {open && (
         <div className="md:hidden glass border-t">
-          <div className="section-container py-4 flex flex-col gap-3">
+          <div className="section-container py-2 flex flex-col gap-2">
             {links.map(l => (
               <a key={l} href={`#${l}`} onClick={() => setOpen(false)} className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-600 transition-colors">
                 {t(`nav.${l}`)}
