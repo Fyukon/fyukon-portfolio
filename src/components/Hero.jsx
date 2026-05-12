@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import useScrollReveal from '../hooks/useScrollReveal'
 
 export default function Hero() {
   const { t } = useTranslation()

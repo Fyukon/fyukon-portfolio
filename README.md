@@ -1,16 +1,70 @@
-# React + Vite
+# Fyukon Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website for Alexey Lensu — Python/backend developer and automation specialist.
 
-Currently, two official plugins are available:
+Production site: https://fyukon.pro
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
+- React
+- Vite
+- Tailwind CSS v4
+- i18next / react-i18next
+- Docker + Nginx
+- Caddy reverse proxy in production
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- bilingual RU/EN content;
+- responsive portfolio landing page;
+- projects, services, experience, tech stack and contact sections;
+- clean dark/light business style;
+- Docker-ready static build.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+The static build is written to `dist/`.
+
+## Lint
+
+```bash
+npm run lint
+```
+
+## Docker
+
+```bash
+docker build -t fyukon-portfolio .
+docker run -d --name fyukon-portfolio -p 127.0.0.1:8080:80 fyukon-portfolio
+```
+
+## Production deployment notes
+
+The production deployment runs on VPS behind Caddy:
+
+- project path on VPS: `/root/fyukon-portfolio` or `/root/portfolio` depending on deployment generation;
+- container serves Nginx on local port `8080`;
+- Caddy proxies `fyukon.pro` to the container;
+- source edits must be rebuilt with `npm run build` before syncing `dist/`.
+
+## Repository policy
+
+Commit source code, configs and docs.
+
+Do not commit:
+
+- `node_modules/`;
+- `dist/` unless explicitly needed for static handoff;
+- `.env` or secrets;
+- temporary local files.
