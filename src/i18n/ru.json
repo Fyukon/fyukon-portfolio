@@ -1,153 +1,214 @@
 {
-  "nav": {
-    "services": "Услуги",
-    "projects": "Проекты",
-    "tech": "Технологии",
-    "experience": "Опыт",
-    "achievements": "Достижения",
-    "contact": "Контакты"
-  },
-  "hero": {
-    "greeting": "Привет, я",
-    "name": "Алексей Ленсу",
-    "alias": "Fyukon",
-    "role": "Python-разработчик. Создаю Telegram-ботов, backend-сервисы и автоматизирую бизнес-процессы.",
-    "cta_work": "Обсудить проект",
-    "cta_cv": "Скачать резюме"
-  },
-  "services": {
-    "title": "Что я делаю",
-    "subtitle": "Решаю задачи бизнеса через код. Быстро, надёжно, с погружением в детали.",
-    "items": [
-      {
-        "title": "Telegram-боты",
-        "desc": "Боты для сбора заявок, управления лидами, интеграции с CRM и API. aiogram 3, FSM, middleware, логирование."
-      },
-      {
-        "title": "Backend-разработка",
-        "desc": "API на FastAPI, работа с PostgreSQL и SQLAlchemy, асинхронная обработка, контейнеризация, деплой на VDS."
-      },
-      {
-        "title": "Веб-приложения",
-        "desc": "Full-stack проекты на React + FastAPI. От лендинга до Mini App в Telegram с backend-логикой."
-      },
-      {
-        "title": "Автоматизация",
-        "desc": "Парсинг, OCR, интеграция API, синхронизация данных между сервисами. Всё, что экономит ваше время."
-      }
-    ]
-  },
-  "projects": {
-    "title": "Проекты",
-    "subtitle": "От production-систем до Telegram-ботов под ключ.",
-    "items": [
-      {
-        "title": "AI CFO Bot",
-        "role": "Разработчик",
-        "desc": "Telegram-бот — AI-финансовый директор для малого бизнеса. Ввод доходов и расходов обычным текстом, AI-парсинг операций, отчёты за день/неделю/месяц, учёт долгов, экспорт в Excel.",
-        "tags": ["aiogram 3", "FastAPI", "PostgreSQL", "SQLAlchemy 2.0", "Docker", "OpenRouter"],
-        "link": ""
-      },
-      {
-        "title": "RuKond",
-        "role": "Full-stack разработчик",
-        "desc": "Сайт для компании по установке кондиционеров. React + FastAPI, каталог, три типа заявок, валидация, Docker Compose + Cloudpub.",
-        "tags": ["React", "FastAPI", "Tailwind CSS", "Docker", "Cloudpub", "rukond.ru"],
-        "link": "https://rukond.ru"
-      },
-      {
-        "title": "SE Toolkit Hackathon",
-        "role": "Full-stack разработчик",
-        "desc": "Синхронизация задач SingularityApp с Telegram-ботом. FastAPI + PostgreSQL, flow parse→confirm→apply через LLM, Docker Compose, деплой на VDS.",
-        "tags": ["FastAPI", "PostgreSQL", "Telegram Bot API", "Docker", "OpenRouter"],
-        "link": ""
-      },
-      {
-        "title": "Lead Bot",
-        "role": "Разработчик",
-        "desc": "Асинхронный Telegram-бот для сбора заявок и управления лидами. FSM, DAO, anti-flood middleware, admin flow, PostgreSQL, Docker Compose.",
-        "tags": ["aiogram 3", "PostgreSQL", "Docker", "FSM", "SQLAlchemy"],
-        "link": ""
-      },
-      {
-        "title": "TableCRM",
-        "role": "Backend-разработчик",
-        "desc": "Работа над production-проектом tablecrm.com: регистрация через MAX, изменения в БД, GitLab CI/CD, разбор архитектуры и доработка без переписывания.",
-        "tags": ["PostgreSQL", "MAX", "GitLab CI/CD", "Backend"],
-        "link": "https://tablecrm.com"
-      }
-    ]
-  },
-  "tech": {
-    "title": "Технологии",
-    "subtitle": "Стек, с которым я работаю ежедневно.",
-    "categories": {
-      "backend": "Backend",
-      "frontend": "Frontend",
-      "data": "Данные",
-      "infra": "Инфраструктура"
+    "nav": {
+        "services": "Услуги",
+        "projects": "Проекты",
+        "about": "Обо мне",
+        "tech": "Технологии",
+        "experience": "Опыт",
+        "achievements": "Достижения",
+        "contact": "Контакты"
     },
-    "items": [
-      "Python", "FastAPI", "aiogram 3", "SQLAlchemy 2.0", "asyncio",
-      "React", "Vite", "Tailwind CSS",
-      "PostgreSQL", "SQLite",
-      "Docker", "Docker Compose", "Linux", "VDS", "Caddy", "Git", "GitLab CI/CD"
-    ]
-  },
-  "experience": {
-    "title": "Опыт",
-    "subtitle": "300+ занятий, production-проекты, работа в команде.",
-    "items": [
-      {
-        "period": "08.2025 — н.в.",
-        "title": "Преподаватель программирования",
-        "subtitle": "Частная практика",
-        "desc": "300+ занятий по Python, C++, ML. 12 учеников 13-16 лет. Нагрузка ~20 ч/нед."
-      },
-      {
-        "period": "07.2025 — 03.2026",
-        "title": "Преподаватель",
-        "subtitle": "Онлайн-школа",
-        "desc": "Индивидуальные и групповые занятия, разбор кода, объяснение сложных тем."
-      },
-      {
-        "period": "2025",
-        "title": "Backend-разработчик (стажировка)",
-        "subtitle": "TableCRM",
-        "desc": "Работа над production-проектом: MAX-регистрация, БД, CI/CD, архитектура."
-      },
-      {
-        "period": "11.2024 — 06.2025",
-        "title": "Консультант",
-        "subtitle": "РЦ «Инсайт», Казань",
-        "desc": "Групповые занятия, работа с людьми в стрессовых ситуациях."
-      }
-    ]
-  },
-  "achievements": {
-    "title": "Достижения",
-    "items": [
-      "Яндекс Лицей — 1-й курс с отличием",
-      "Призёр «Высшей пробы» (командная олимпиада)",
-      "Призёр регионального этапа ВСОШ",
-      "3-е место в финале Innopolis Open, AI-трек",
-      "Финалист WorldSkills Russia Junior, Big Data & ML"
-    ]
-  },
-  "contact": {
-    "title": "Давайте работать вместе",
-    "subtitle": "Пишите в Telegram — отвечаю быстро. Обсудим задачу, сроки и бюджет.",
-    "cta": "Написать в Telegram",
-    "or": "или",
-    "email": "Написать на почту"
-  },
-  "footer": {
-    "copyright": "Алексей Ленсу — Fyukon",
-    "built": "Сделано с душой",
-    "lang": "EN"
-  },
-  "theme": {
-    "light": "Светлая",
-    "dark": "Тёмная"
-  }
+    "hero": {
+        "greeting": "Привет, я",
+        "name": "Алексей Ленсу",
+        "alias": "Fyukon",
+        "role": "Python-разработчик. Создаю Telegram-ботов, backend-сервисы и автоматизирую бизнес-процессы.",
+        "cta_work": "Обсудить проект",
+        "cta_cv": "Скачать резюме"
+    },
+    "services": {
+        "title": "Что я делаю",
+        "subtitle": "Решаю задачи бизнеса через код. Быстро, надёжно, с погружением в детали.",
+        "items": [
+            {
+                "title": "Telegram-боты",
+                "desc": "Боты для сбора заявок, управления лидами, интеграции с CRM и API. aiogram 3, FSM, middleware, логирование."
+            },
+            {
+                "title": "Backend-разработка",
+                "desc": "API на FastAPI, работа с PostgreSQL и SQLAlchemy, асинхронная обработка, контейнеризация, деплой на VDS."
+            },
+            {
+                "title": "Веб-приложения",
+                "desc": "Full-stack проекты на React + FastAPI. От лендинга до Mini App в Telegram с backend-логикой."
+            },
+            {
+                "title": "Автоматизация",
+                "desc": "Парсинг, OCR, интеграция API, синхронизация данных между сервисами. Всё, что экономит ваше время."
+            }
+        ]
+    },
+    "projects": {
+        "title": "Проекты",
+        "subtitle": "От production-систем до Telegram-ботов под ключ.",
+        "items": [
+            {
+                "title": "AI CFO Bot",
+                "role": "Разработчик",
+                "desc": "Telegram-бот — AI-финансовый директор для малого бизнеса. Ввод доходов и расходов обычным текстом, AI-парсинг операций, отчёты за день/неделю/месяц, учёт долгов, экспорт в Excel.",
+                "tags": [
+                    "aiogram 3",
+                    "FastAPI",
+                    "PostgreSQL",
+                    "SQLAlchemy 2.0",
+                    "Docker",
+                    "OpenRouter"
+                ],
+                "link": ""
+            },
+            {
+                "title": "RuKond",
+                "role": "Full-stack разработчик",
+                "desc": "Сайт для компании по установке кондиционеров. React + FastAPI, каталог, три типа заявок, валидация, Docker Compose + Cloudpub.",
+                "tags": [
+                    "React",
+                    "FastAPI",
+                    "Tailwind CSS",
+                    "Docker",
+                    "Cloudpub",
+                    "rukond.ru"
+                ],
+                "link": "https://rukond.ru"
+            },
+            {
+                "title": "SE Toolkit Hackathon",
+                "role": "Full-stack разработчик",
+                "desc": "Синхронизация задач SingularityApp с Telegram-ботом. FastAPI + PostgreSQL, flow parse→confirm→apply через LLM, Docker Compose, деплой на VDS.",
+                "tags": [
+                    "FastAPI",
+                    "PostgreSQL",
+                    "Telegram Bot API",
+                    "Docker",
+                    "OpenRouter"
+                ],
+                "link": ""
+            },
+            {
+                "title": "Lead Bot",
+                "role": "Разработчик",
+                "desc": "Асинхронный Telegram-бот для сбора заявок и управления лидами. FSM, DAO, anti-flood middleware, admin flow, PostgreSQL, Docker Compose.",
+                "tags": [
+                    "aiogram 3",
+                    "PostgreSQL",
+                    "Docker",
+                    "FSM",
+                    "SQLAlchemy"
+                ],
+                "link": ""
+            },
+            {
+                "title": "Fyukon Automation Lab",
+                "role": "Full-stack разработчик",
+                "desc": "Интерактивная демо-платформа бизнес-автоматизаций. 3 ниши, форма заявки, CRM с Kanban, AI-помощник (DeepSeek), Telegram-бот, графики, калькулятор стоимости.",
+                "tags": [
+                    "React",
+                    "FastAPI",
+                    "Tailwind CSS",
+                    "Docker",
+                    "DeepSeek AI",
+                    "Caddy"
+                ],
+                "link": "https://fyukon.pro/lab/"
+            },
+            {
+                "title": "TableCRM",
+                "role": "Backend-разработчик",
+                "desc": "Работа над production-проектом tablecrm.com: регистрация через MAX, изменения в БД, GitLab CI/CD, разбор архитектуры и доработка без переписывания.",
+                "tags": ["PostgreSQL", "MAX", "GitLab CI/CD", "Backend"],
+                "link": "https://tablecrm.com"
+            }
+        ]
+    },
+    "tech": {
+        "title": "Технологии",
+        "subtitle": "Стек, с которым я работаю ежедневно.",
+        "categories": {
+            "backend": "Backend",
+            "frontend": "Frontend",
+            "data": "Данные",
+            "infra": "Инфраструктура"
+        },
+        "items": [
+            "Python",
+            "FastAPI",
+            "aiogram 3",
+            "SQLAlchemy 2.0",
+            "asyncio",
+            "React",
+            "Vite",
+            "Tailwind CSS",
+            "PostgreSQL",
+            "SQLite",
+            "Docker",
+            "Docker Compose",
+            "Linux",
+            "VDS",
+            "Caddy",
+            "Git",
+            "GitLab CI/CD"
+        ]
+    },
+    "experience": {
+        "title": "Опыт",
+        "subtitle": "300+ занятий, production-проекты, работа в команде.",
+        "items": [
+            {
+                "period": "08.2025 — н.в.",
+                "title": "Преподаватель программирования",
+                "subtitle": "Частная практика",
+                "desc": "300+ занятий по Python, C++, ML. 12 учеников 13-16 лет. Нагрузка ~20 ч/нед."
+            },
+            {
+                "period": "07.2025 — 03.2026",
+                "title": "Преподаватель",
+                "subtitle": "Онлайн-школа",
+                "desc": "Индивидуальные и групповые занятия, разбор кода, объяснение сложных тем."
+            },
+            {
+                "period": "2025",
+                "title": "Backend-разработчик (стажировка)",
+                "subtitle": "TableCRM",
+                "desc": "Работа над production-проектом: MAX-регистрация, БД, CI/CD, архитектура."
+            },
+            {
+                "period": "11.2024 — 06.2025",
+                "title": "Консультант",
+                "subtitle": "РЦ «Инсайт», Казань",
+                "desc": "Групповые занятия, работа с людьми в стрессовых ситуациях."
+            }
+        ]
+    },
+    "achievements": {
+        "title": "Достижения",
+        "items": [
+            "Яндекс Лицей — 1-й курс с отличием",
+            "Призёр «Высшей пробы» (командная олимпиада)",
+            "Призёр регионального этапа ВСОШ",
+            "3-е место в финале Innopolis Open, AI-трек",
+            "Финалист WorldSkills Russia Junior, Big Data & ML"
+        ]
+    },
+    "about": {
+        "title": "Обо мне",
+        "subtitle": "Я Алексей Ленсу (Fyukon) — Python-разработчик и специалист по автоматизации. Создаю Telegram-ботов, backend-сервисы и автоматизирую бизнес-процессы с чистым, масштабируемым кодом.",
+        "contactTitle": "Давайте работать вместе",
+        "contactDesc": "Есть проект в голове? Пишите в Telegram — отвечаю быстро. Обсудим задачу, сроки и бюджет."
+    },
+    "contact": {
+        "title": "Давайте работать вместе",
+        "subtitle": "Пишите в Telegram — отвечаю быстро. Обсудим задачу, сроки и бюджет.",
+        "cta": "Написать в Telegram",
+        "or": "или",
+        "email": "Написать на почту"
+    },
+    "footer": {
+        "copyright": "Алексей Ленсу — Fyukon",
+        "built": "Сделано с душой",
+        "lang": "EN",
+        "about": "Обо мне"
+    },
+    "theme": {
+        "light": "Светлая",
+        "dark": "Тёмная"
+    }
 }

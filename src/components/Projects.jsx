@@ -34,6 +34,7 @@ const tagIcons = {
   'Linux': '🐧',
   'VDS': '🖥️',
   'Git': '📦',
+  'DeepSeek AI': '🧠',
 }
 
 function getTagIcon(tag) {
