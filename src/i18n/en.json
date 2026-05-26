@@ -3,49 +3,48 @@
         "services": "Services",
         "projects": "Projects",
         "about": "About",
-        "tech": "Tech",
+        "tech": "Stack",
         "experience": "Experience",
-        "achievements": "Achievements",
         "contact": "Contact"
     },
     "hero": {
-        "greeting": "Hi, I'm",
         "name": "Alexey Lensu",
         "alias": "Fyukon",
-        "role": "Python developer. I build Telegram bots, backend services, and automate business workflows.",
-        "cta_work": "Let's talk",
-        "cta_cv": "Download CV"
+        "role": "Python developer. I build Telegram bots for sales, backends for products, automation for business.",
+        "cta_work": "Let's work",
+        "cta_projects": "View projects",
+        "cta_cv": "Resume"
     },
     "services": {
         "title": "What I do",
-        "subtitle": "Solving business problems with code. Fast, reliable, detail-oriented.",
+        "subtitle": "Code that solves business problems. No fluff.",
         "items": [
             {
                 "title": "Telegram Bots",
-                "desc": "Bots for lead capture, CRM integration, and API connectivity. aiogram 3, FSM, middleware, logging."
+                "desc": "Bots for lead capture, qualification, and auto-funnels. aiogram 3, FSM, middleware. CRM and payment integration. A working bot in two weeks."
             },
             {
-                "title": "Backend Development",
-                "desc": "FastAPI APIs, PostgreSQL with SQLAlchemy, async processing, containerization, VDS deployment."
-            },
-            {
-                "title": "Web Applications",
-                "desc": "Full-stack projects with React + FastAPI. From landing pages to Telegram Mini Apps with backend logic."
+                "title": "Backend",
+                "desc": "APIs on FastAPI, PostgreSQL databases. Async queue processing, background tasks. Containerized and deployed to your server. Code that handles load."
             },
             {
                 "title": "Automation",
-                "desc": "Parsing, OCR, API integrations, data sync between services. Anything that saves your time."
+                "desc": "Web scraping, document OCR, API sync between services. I remove manual work from repetitive processes. You get hours back in your day."
+            },
+            {
+                "title": "Web Applications",
+                "desc": "From landing pages to Telegram Mini Apps with backend logic. React on the front, FastAPI on the back. Admin panels, dashboards, client portals."
             }
         ]
     },
     "projects": {
         "title": "Projects",
-        "subtitle": "From production systems to turnkey Telegram bots.",
+        "subtitle": "Six projects that delivered results.",
         "items": [
             {
                 "title": "AI CFO Bot",
-                "role": "Developer",
-                "desc": "Telegram bot — AI CFO for small business. Track income and expenses via natural text, AI-powered parsing, daily/weekly/monthly reports, debt tracking, Excel export.",
+                "role": "Python Developer",
+                "desc": "Telegram bot for small business finance. Users type expenses in plain text. AI parses entries, categorizes them, builds daily, weekly, monthly reports. Debt tracking, Excel export.",
                 "tags": [
                     "aiogram 3",
                     "FastAPI",
@@ -59,21 +58,20 @@
             {
                 "title": "RuKond",
                 "role": "Full-stack Developer",
-                "desc": "Website for an AC installation company. React + FastAPI, product catalog, three request types, validation, Docker Compose + Cloudpub.",
+                "desc": "Website for an HVAC installation company. Equipment catalog, three request types with validation, admin panel. React, FastAPI, Tailwind CSS. Deployed via Docker Compose on Cloudpub.",
                 "tags": [
                     "React",
                     "FastAPI",
                     "Tailwind CSS",
                     "Docker",
-                    "Cloudpub",
-                    "rukond.ru"
+                    "Cloudpub"
                 ],
                 "link": "https://rukond.ru"
             },
             {
                 "title": "SE Toolkit Hackathon",
                 "role": "Full-stack Developer",
-                "desc": "SingularityApp task sync with Telegram bot. FastAPI + PostgreSQL, parse→confirm→apply flow via LLM, Docker Compose, VDS deployment.",
+                "desc": "SingularityApp integration with a Telegram bot. Users write tasks in chat, LLM parses them, bot confirms and creates the task in the tracker. FastAPI, PostgreSQL, OpenRouter.",
                 "tags": [
                     "FastAPI",
                     "PostgreSQL",
@@ -85,8 +83,8 @@
             },
             {
                 "title": "Lead Bot",
-                "role": "Developer",
-                "desc": "Async Telegram bot for lead capture and management. FSM, DAO, anti-flood middleware, admin flow, PostgreSQL, Docker Compose.",
+                "role": "Python Developer",
+                "desc": "Async bot for lead capture and management. State machine on FSM, data access through DAO, anti-flood protection, admin panel. PostgreSQL, Docker Compose.",
                 "tags": [
                     "aiogram 3",
                     "PostgreSQL",
@@ -99,7 +97,7 @@
             {
                 "title": "Fyukon Automation Lab",
                 "role": "Full-stack Developer",
-                "desc": "Interactive demo platform for business automation. 3 niches, lead forms, CRM with Kanban, AI assistant (DeepSeek), Telegram bot, charts, cost calculator.",
+                "desc": "Interactive automation demo platform. Three business niches, lead form, CRM with Kanban board. AI assistant on DeepSeek, Telegram bot, cost calculator. React, FastAPI, Caddy.",
                 "tags": [
                     "React",
                     "FastAPI",
@@ -113,15 +111,15 @@
             {
                 "title": "TableCRM",
                 "role": "Backend Developer",
-                "desc": "Production project work on tablecrm.com: MAX registration, DB changes, GitLab CI/CD, architecture navigation and feature development without rewrites.",
+                "desc": "Production work on tablecrm.com. Added MAX registration, changed database schema, set up GitLab CI/CD. Navigated architecture and built features without rewrites.",
                 "tags": ["PostgreSQL", "MAX", "GitLab CI/CD", "Backend"],
                 "link": "https://tablecrm.com"
             }
         ]
     },
     "tech": {
-        "title": "Tech Stack",
-        "subtitle": "Tools I work with daily.",
+        "title": "Stack",
+        "subtitle": "Tools I work with.",
         "categories": {
             "backend": "Backend",
             "frontend": "Frontend",
@@ -150,59 +148,43 @@
     },
     "experience": {
         "title": "Experience",
-        "subtitle": "300+ lessons, production projects, team collaboration.",
+        "subtitle": "Two years in development. 300+ lessons taught. Code in production.",
         "items": [
             {
                 "period": "08.2025 — present",
                 "title": "Programming Teacher",
                 "subtitle": "Private practice",
-                "desc": "300+ lessons in Python, C++, ML. 12 students aged 13-16. ~20 h/week."
+                "desc": "Taught 300+ lessons in Python, C++, ML. 12 students aged 13-16. 20 hours per week."
             },
             {
                 "period": "07.2025 — 03.2026",
                 "title": "Teacher",
                 "subtitle": "Online school",
-                "desc": "Individual and group lessons, code review, explaining complex topics."
+                "desc": "Individual and group lessons. Code review, explaining complex topics."
             },
             {
                 "period": "2025",
-                "title": "Backend Developer (Internship)",
-                "subtitle": "TableCRM",
-                "desc": "Production project: MAX registration, DB, CI/CD, architecture work."
+                "title": "Backend Developer",
+                "subtitle": "TableCRM, internship",
+                "desc": "Wrote production code: MAX registration, database schema changes, CI/CD pipeline."
             },
             {
                 "period": "11.2024 — 06.2025",
                 "title": "Consultant",
                 "subtitle": "Insight Rehab Center, Kazan",
-                "desc": "Group sessions, working with people in high-stress environments."
+                "desc": "Group sessions, working with people under high stress."
             }
         ]
     },
-    "achievements": {
-        "title": "Achievements",
-        "items": [
-            "Yandex Lyceum — 1st year with honors",
-            "Vysshaya Proba Olympiad winner (team)",
-            "Regional stage winner, All-Russian Olympiad",
-            "3rd place, Innopolis Open finals (AI track)",
-            "WorldSkills Russia Junior finalist, Big Data & ML"
-        ]
-    },
-    "about": {
-        "title": "About Me",
-        "subtitle": "I'm Alexey Lensu (Fyukon) — a Python backend developer and automation specialist. I build Telegram bots, backend services, and automate business processes with clean, scalable code.",
-        "contactTitle": "Let's work together",
-        "contactDesc": "Have a project in mind? Message me on Telegram — I reply fast. Let's discuss your task, timeline, and budget."
-    },
     "contact": {
-        "title": "Let's work together",
-        "subtitle": "Message me on Telegram — I reply fast. Let's discuss your project, timeline, and budget.",
-        "cta": "Message on Telegram",
+        "title": "Write me",
+        "subtitle": "Tell me about your task. I reply within a day with a solution and a timeline.",
+        "cta": "Telegram",
         "or": "or",
-        "email": "Send email"
+        "email": "Email"
     },
     "footer": {
-        "copyright": "Alexey Lensu — Fyukon",
+        "copyright": "Alexey Lensu",
         "built": "Built with care",
         "lang": "RU",
         "about": "About me"
@@ -210,5 +192,21 @@
     "theme": {
         "light": "Light",
         "dark": "Dark"
+    },
+    "about": {
+        "title": "About me",
+        "subtitle": "I'm Alexey Lensu. Python developer. I build bots, backends, and automation.",
+        "contactTitle": "Get in touch",
+        "contactDesc": "Describe your task on Telegram. I reply fast. We'll discuss details, timeline, and cost."
+    },
+    "achievements": {
+        "title": "Achievements",
+        "items": [
+            "Yandex Lyceum — first year with honors",
+            "Vysshaya Proba Olympiad prize winner",
+            "Regional stage winner, All-Russian Olympiad",
+            "Third place, Innopolis Open finals, AI track",
+            "WorldSkills Russia Junior finalist, Big Data & ML"
+        ]
     }
 }
